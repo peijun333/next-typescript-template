@@ -1,0 +1,25 @@
+{
+  "Function component": {
+    "prefix": "fc",
+    "body": [
+      "export const ${TM_DIRECTORY/^.+\\/(.*)$/$1/}: React.FC = () => {",
+      "  return <>$1</>;",
+      "};",
+    ],
+    "description": "function component"
+  },
+  "Function component with Props": {
+    "prefix": "fcp",
+    "body": [
+      "interface Props {",
+      "  id: string;",
+      "}",
+      "",
+      "export const ${TM_DIRECTORY/^.+\\/(.*)$/$1/}: React.FC<Props> = ({ id }) => {",
+      "  return <>{${3:id$1}}</>;",
+      "};",
+      ""
+    ],
+    "description": "function component with Props"
+  }
+}
