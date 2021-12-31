@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint --max-warnings=0 '**/*.tsx' '**/*.ts'"
   },
   "dependencies": {
     "@emotion/react": "^11.7.1",
