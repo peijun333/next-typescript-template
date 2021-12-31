@@ -1,5 +1,5 @@
 const Component: React.FC = () => {
-  return <div>index</div>;
-};
+  return <div>hello</div>
+}
 
-export default Component;
+export default Component
