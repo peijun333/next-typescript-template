@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "next-typescript-template",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,9 @@
     "start": "next start"
   },
   "dependencies": {
-    "next": "^10.0.8",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "next": "12",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
